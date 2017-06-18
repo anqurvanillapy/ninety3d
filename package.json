@@ -1,0 +1,39 @@
+{
+  "name": "ninety3d",
+  "version": "0.1.0",
+  "description": "Tryna make a game like from the 90s",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "prebuild": "tslint --project tsconfig.json --type-check",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "clean": "rm -rf dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anqurvanillapy/ninety3d.git"
+  },
+  "keywords": [
+    "game",
+    "retro"
+  ],
+  "author": "AnqurVanillapy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anqurvanillapy/ninety3d/issues"
+  },
+  "homepage": "https://github.com/anqurvanillapy/ninety3d#readme",
+  "dependencies": {
+    "pixi.js": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.5.0",
+    "awesome-typescript-loader": "^3.1.3",
+    "source-map-loader": "^0.2.1",
+    "tslint": "^5.4.3",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1"
+  }
+}
